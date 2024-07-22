@@ -23,3 +23,22 @@ cross-compile the driver for RISC-V and test the complete system through the use
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Linux Device Driver Development for SHA256 Cryptographic Core in QEMU for RISC-V ISA</span> by <span property="cc:attributionName">Shahabuddin Danish, Areeb Ahmed</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
 
 Both the codebase and the documentation are distributed with the aforementioned license.
+
+## Further Suggested Reading
+
+* QEMU Setup and Hardware Modelling: [QEMU Prototype Design][prototype-design]
+
+* Linux Kernel Modules: [Linux Kernel Module Programming Guide][lkmpg]
+
+* [Cross Compilation Toolchain and Embedded Linux generation][cross-compile]
+
+* [Tainted Linux Kernels][tainted]
+
+* [Linux Device Tree][device-tree]
+
+[//]: # "Definitions"
+[prototype-design]: https://milokim.gitbooks.io/lbb/content/qemu-how-to-design-a-prototype-device.html
+[lkmpg]: https://sysprog21.github.io/lkmpg/
+[cross-compile]: https://www.linkedin.com/pulse/working-buildroot-generate-cross-compilation-toolchain-gutti-qfxjc
+[tainted]: https://docs.kernel.org/admin-guide/tainted-kernels.html
+[device-tree]: https://elinux.org/images/f/f9/Petazzoni-device-tree-dummies_0.pdf
